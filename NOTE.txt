@@ -1,0 +1,8 @@
+Another approach to determine whether a point is inside a polygon is by calculating the area of the polygon
+and then summing the areas of the triangles formed by each edge of the polygon with the point. If the sum of
+these triangle areas equals the area of the polygon, the point lies inside the polygon; otherwise, it lies outside.
+
+In 3D, a similar method applies to polyhedra. We calculate the volume of the polyhedron and
+then sum the volumes of the pyramids formed by the point and each face of the polyhedron.
+If the total volume of these pyramids equals the volume of the polyhedron, the point is inside
+the polyhedron; otherwise, it is outside.
